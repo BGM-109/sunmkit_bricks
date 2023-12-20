@@ -8,3 +8,9 @@ bricks:
     path: counter
   supabase_auth:
     path: auth/supabase_auth
+  base_feature:
+    path: feature/base_feature
+  crud_feature:
+    path: feature/crud_feature
+  supabase_community:
+    path: community/community_supabase
