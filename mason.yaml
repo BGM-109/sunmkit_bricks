@@ -12,5 +12,5 @@ bricks:
     path: feature/base_feature
   crud_feature:
     path: feature/crud_feature
-  supabase_community:
+  community_supabase:
     path: community/community_supabase
