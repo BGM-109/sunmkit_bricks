@@ -1,4 +1,4 @@
-name: {{name}}
+name: { { name } }
 description: "A new Flutter project."
 
 version: 1.0.0+1
@@ -16,7 +16,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.18.1
-  flutter_dotenv: ^5.1.0
+  envied: ^0.5.3
 
 dev_dependencies:
   flutter_test:
@@ -28,11 +28,11 @@ dev_dependencies:
   riverpod_generator: ^2.3.9
   build_runner: ^2.4.7
   mocktail: ^1.0.2
+  envied_generator: ^0.5.3
 
 flutter:
   uses-material-design: true
   generate: true
 
   assets:
-    - .env.development
-    - .env.production
+    - .env
